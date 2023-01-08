@@ -90,7 +90,7 @@ class CoffeeMachine:
         elif response == "3":
             self.cappuccino()
         else:
-            print("wrong choice")
+            print("Wrong choice")
 
     # take money
     def take(self):
@@ -113,7 +113,7 @@ class CoffeeMachine:
             elif action == "take":
                 self.take()
             else:
-                print("wrong action")
+                print("Wrong action")
 # initilaze
 machine = CoffeeMachine()
 machine.actions()
